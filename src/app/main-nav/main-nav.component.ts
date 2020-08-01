@@ -13,9 +13,12 @@ export class MainNavComponent implements OnDestroy{
 
   mobileQuery: MediaQueryList;
 
-  fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
+  fillerNav = [
+    'Contact',
+    'About'
+  ]
 
-  fillerContent = Array.from({length: 50}, () =>
+  fillerContent = Array.from({length: 2}, () =>
       `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
