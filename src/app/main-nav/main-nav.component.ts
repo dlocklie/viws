@@ -14,6 +14,7 @@ export class MainNavComponent implements OnDestroy{
   mobileQuery: MediaQueryList;
 
   fillerNav = [
+    'Home',
     'Contact',
     'About'
   ]
