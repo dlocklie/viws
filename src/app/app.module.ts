@@ -19,7 +19,7 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     BodyComponent,
     MainNavComponent,
-    AboutComponent
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
