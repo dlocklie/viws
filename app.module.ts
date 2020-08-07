@@ -5,8 +5,8 @@ import { LayoutModule } from '@angular/cdk/layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BodyComponent } from './body/body.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 
@@ -22,10 +22,10 @@ import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
-    BodyComponent,
     MainNavComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
